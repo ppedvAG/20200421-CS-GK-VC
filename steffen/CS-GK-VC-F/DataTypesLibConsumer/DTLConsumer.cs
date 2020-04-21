@@ -25,6 +25,8 @@ namespace DataTypesLibConsumer
             MyInt.ZeigeParsing();
             MyInt.ZeigeCasting();
             MyInt.ZeigeVergleich();
+            MyDouble.ZeigeDouble();
+            MyEnum.ZeigeEnumerator();
             Console.ReadKey();
         }
     }
