@@ -41,6 +41,10 @@ namespace DataTypesLibConsumer
 
 			MyInt.ZeigeVergleich();
 
+			MyDouble.ZeigeDouble();
+
+			MyEnum.ZeigeEnumerator();
+
 			Console.ReadKey();
 		}
 	}
