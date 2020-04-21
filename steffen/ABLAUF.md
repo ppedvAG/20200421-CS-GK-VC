@@ -1,4 +1,4 @@
-# ABLAUF VOM KURS, VADZIM
+# ABLAUF VOM KURS, Steffen
 
 [csharp-cheatsheet](CSHARP-CHEATSHEET.md)
 
