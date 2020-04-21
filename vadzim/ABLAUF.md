@@ -11,17 +11,17 @@
 ## M0 | WARMING UP
 
 - [x] Greeter
-- [ ] VS [homepage](https://visualstudio.microsoft.com/de/)
-- [ ] Git
+- [x] VS [homepage](https://visualstudio.microsoft.com/de/)
+- [x] Git
 
 VS Installer > installierte Version ändern > sprachpakete
 
 ## M1 | GETTING STARTED
 
-- [ ] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [ ] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
-- [ ] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
-- [ ] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
+- [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
+- [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
+- [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/HelloWorld.cs)
+- [x] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
 
 sln props > startup projects > current
 

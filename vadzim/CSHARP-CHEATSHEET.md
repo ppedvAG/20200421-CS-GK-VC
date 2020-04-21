@@ -50,7 +50,7 @@ public class Person
 
 **SNIPPET**
 
-`class` `tab` `tab`
+`class` `tab`
 
 **MEMBERS**
 

@@ -8,7 +8,7 @@
 | `ctrl j` | autocomplete |
 | `ctrl d` | copy line or selected code |
 | `ctrl f` | search function |
-| `alt up/down` | move line |
+| `alt up/down` | move line or selection |
 | `shift alt up/down` | edit many lines |
 | `ctrl s` | save file |
 | `ctrl shift s` | save all files |
