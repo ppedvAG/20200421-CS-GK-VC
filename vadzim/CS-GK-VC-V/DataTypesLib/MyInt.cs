@@ -36,15 +36,15 @@ namespace DataTypesLib
         {
             double kommaZahl = 44.32;
             int ganzeZahl = (int)kommaZahl;
-            Console.WriteLine($"ganzeZahl: {ganzeZahl}");
+            Console.WriteLine($"ganzeZahl: {ganzeZahl}"); // 44
         }
 
         public static void ZeigeVergleich()
         {
-            Console.WriteLine($"5 >= 3: {5 >= 3}");
+            Console.WriteLine($"5 >= 3: {5 >= 3}"); // True
             // 3 > 5, <, >=, <=
 
-            // Console.WriteLine($"{}");
+            
         }
     }
 }
