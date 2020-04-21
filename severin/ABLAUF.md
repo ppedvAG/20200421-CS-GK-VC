@@ -11,41 +11,41 @@
 ## M0 | WARMING UP
 
 - [x] Greeter
-- [ ] VS [Homepage](https://visualstudio.microsoft.com/de/)
-- [ ] Git
+- [x] VS [Homepage](https://visualstudio.microsoft.com/de/)
+- [x] Git
 
 VS Installer > installierte Version ändern > sprachpakete
 
 ## M1 | GETTING STARTED
 
-- [ ] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [ ] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
-- [ ] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
-- [ ] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
+- [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
+- [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
+- [x] [M1HelloWorld](../severin/CS-GK-VC-S/M1HelloWorld/M1HelloWorld.cs)
+- [x] [DConsole](../severin/CS-GK-VC-S/Demo-Console/DemoConsole.cs)
 
 sln props > startup projects > current
 
 ## M2 | DATA TYPES, OPERATORS
 
 - [ ] Datentypen
-- [ ] [bool](../vadzim/CS-GK-VC-V/Demo-bool/Dbool.cs)
-- [ ] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
-- [ ] [int](../vadzim/CS-GK-VC-V/Demo-int/Dint.cs)
-- [ ] [double](../vadzim/CS-GK-VC-V/Demo-double/Ddouble.cs)
+- [ ] [bool](../severin/CS-GK-VC-S/Demo-bool/Dbool.cs)
+- [ ] [string](../severin/CS-GK-VC-S/Demo-String/Dstring.cs)
+- [ ] [int](../severin/CS-GK-VC-S/Demo-int/Dint.cs)
+- [ ] [double](../severin/CS-GK-VC-S/Demo-double/Ddouble.cs)
 - [ ] Operatoren
 - [ ] Casting
-- [ ] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
-- [ ] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
+- [ ] [enum](../severin/CS-GK-VC-S/Demo-enum/Denum.cs)
+- [ ] [Ü MiniRechner](../severin/CS-GK-VC-S/M2MiniRechner/M2MiniRechner.cs)
 
 ## M3 | ARRAYS & CONTROLS
 
-- [ ] [Arrays](../vadzim/CS-GK-VC-V/Demo-Array/DArray.cs)
+- [ ] [Arrays](../severin/CS-GK-VC-S/Demo-Array/DArray.cs)
 - [ ] if else
 - [ ] for
 - [ ] while & do while
 - [ ] switch
-- [ ] [Demo-Random](../vadzim/CS-GK-VC-V/Demo-Random/DRandom.cs)
-- [ ] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
+- [ ] [Demo-Random](../severin/CS-GK-VC-S/Demo-Random/DRandom.cs)
+- [ ] [M3Zahlenratespiel](../severin/CS-GK-VC-S/M3Zufallszahl/M3Zufallszahl.cs)
 
 ## M4 | METHODS
 
@@ -54,7 +54,7 @@ sln props > startup projects > current
 - [ ] return
 - [ ] overloads
 - [ ] out & ref args
-- [ ] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
+- [ ] [DMethods](../severin/CS-GK-VC-S/Demo-Methods/DMethods.cs)
 
 ## M5 | CLASSES & OOP
 
@@ -65,50 +65,50 @@ sln props > startup projects > current
 - [ ] access modifier
 - [ ] inctances / objects
 - [ ] destructor
-- [ ] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
-- [ ] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
-- [ ] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü MTransport](../vadzim/CS-GK-VC-V/MTransport/Transport.cs)
-- [ ] [Ü MTransportConsumer](../vadzim/CS-GK-VC-V/MTransport/TConsumer.cs)
+- [ ] [DLibrary - MyClass](../severin/CS-GK-VC-S/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
+- [ ] [DLibrary - MyClassWProps](../severin/CS-GK-VC-S/Demo-Library/MyClassWProps.cs)
+- [ ] [DLibraryConsumer](../severin/CS-GK-VC-S/Demo-Library-Consumer/DLibConsumer.cs)
+- [ ] [Ü MTransport](../severin/CS-GK-VC-S/MTransport/Transport.cs)
+- [ ] [Ü MTransportConsumer](../severin/CS-GK-VC-S/MTransport/TConsumer.cs)
 
 ## M6 | INHERITENCE / VERERBUNG
 
 - [ ] base
 - [ ] virtual & override methods
 - [ ] abstract methods
-- [ ] [DLibrary - MyRandom](../vadzim/CS-GK-VC-V/Demo-Library/MyRandom.cs)
-- [ ] [DLibraryConsumer - Region Call MyRandom](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [DLibrary - MyClassInhCtor](../vadzim/CS-GK-VC-V/Demo-Library/MyClassInhCtor.cs)
-- [ ] [DLibraryConsumer - Region Call MyClassInhCtor](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü Flugzeug](../vadzim/CS-GK-VC-V/MTransport/Flugzeug.cs)
-- [ ] [Ü PKW](../vadzim/CS-GK-VC-V/MTransport/PKW.cs)
-- [ ] [Ü Schiff](../vadzim/CS-GK-VC-V/MTransport/Schiff.cs)
+- [ ] [DLibrary - MyRandom](../severin/CS-GK-VC-S/Demo-Library/MyRandom.cs)
+- [ ] [DLibraryConsumer - Region Call MyRandom](../severin/CS-GK-VC-S/Demo-Library-Consumer/DLibConsumer.cs)
+- [ ] [DLibrary - MyClassInhCtor](../severin/CS-GK-VC-S/Demo-Library/MyClassInhCtor.cs)
+- [ ] [DLibraryConsumer - Region Call MyClassInhCtor](../severin/CS-GK-VC-S/Demo-Library-Consumer/DLibConsumer.cs)
+- [ ] [Ü Flugzeug](../severin/CS-GK-VC-S/MTransport/Flugzeug.cs)
+- [ ] [Ü PKW](../severin/CS-GK-VC-S/MTransport/PKW.cs)
+- [ ] [Ü Schiff](../severin/CS-GK-VC-S/MTransport/Schiff.cs)
 
 ## M7 | INTERFACES & POLYMORPHISM
 
 - [ ] interfaces
 - [ ] override vs overload
-- [ ] [Ü IKannAndereTransportieren](../vadzim/CS-GK-VC-V/MTransport/IKannAndereTransportieren.cs)
-- [ ] [Ü IMitRädern](../vadzim/CS-GK-VC-V/MTransport/IMitRädern.cs)
+- [ ] [Ü IKannAndereTransportieren](../severin/CS-GK-VC-S/MTransport/IKannAndereTransportieren.cs)
+- [ ] [Ü IMitRädern](../severin/CS-GK-VC-S/MTransport/IMitRädern.cs)
 
 DLibrary, DLibraryConsumer
 
 ## M8 | GENERIC DATA STRUCTURES
 
-- [ ] [List`<T>`](../vadzim/CS-GK-VC-V/Demo-List/DList.cs)
-- [ ] [Stack`<T>`](../vadzim/CS-GK-VC-V/Demo-Stack/DStack.cs)
-- [ ] [Queue`<T>`](../vadzim/CS-GK-VC-V/Demo-Queue/DQueue.cs)
-- [ ] [KeyValuePair`<T1, T2>`](../vadzim/CS-GK-VC-V/Demo-KeyValuePair/DKeyValuePair.cs)
-- [ ] [Dictionary`<T1, T2>`](../vadzim/CS-GK-VC-V/Demo-Dictionary/DDictionary.cs)
+- [ ] [List`<T>`](../severin/CS-GK-VC-S/Demo-List/DList.cs)
+- [ ] [Stack`<T>`](../severin/CS-GK-VC-S/Demo-Stack/DStack.cs)
+- [ ] [Queue`<T>`](../severin/CS-GK-VC-S/Demo-Queue/DQueue.cs)
+- [ ] [KeyValuePair`<T1, T2>`](../severin/CS-GK-VC-S/Demo-KeyValuePair/DKeyValuePair.cs)
+- [ ] [Dictionary`<T1, T2>`](../severin/CS-GK-VC-S/Demo-Dictionary/DDictionary.cs)
 - [ ] Hachtable
-- [ ] [Ü Passagierliste](../vadzim/CS-GK-VC-V/MTransport/Flugzeug.cs)
+- [ ] [Ü Passagierliste](../severin/CS-GK-VC-S/MTransport/Flugzeug.cs)
 
 ## M9 | WINDOWS FORMS
 
 - [ ] partial classes
 - [ ] widgets / components
 - [ ] component props
-- [ ] [TicTacToe](../vadzim/CS-GK-VC-V/Demo-WinForm/DWinForm.cs)
+- [ ] [TicTacToe](../severin/CS-GK-VC-S/Demo-WinForm/DWinForm.cs)
 
 ## M10 | DELEGATES & EVENTS
 
@@ -133,20 +133,20 @@ Klasse Stopwatch?
 - [ ] try catch finally
 - [ ] Exception types
 - [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
-- [ ] [Demo-Exception](../vadzim/CS-GK-VC-V/Demo-Exceptions/Form1.cs)
+- [ ] [Demo-Exception](../severin/CS-GK-VC-S/Demo-Exceptions/Form1.cs)
 
 ## M12 | Unit-Tests
 
 - [ ] TestPackages & TestProject
 - [ ] TestClasses, TestMethods, TestAnnotations
 - [ ] Assert-Klasse
-- [ ] [Demo-UnitTest1](../vadzim/CS-GK-VC-V/Demo-UnitTests/UnitTest1.cs)
+- [ ] [Demo-UnitTest1](../severin/CS-GK-VC-S/Demo-UnitTests/UnitTest1.cs)
 
 ## M13 | File Access Dateizugriff​
 
 - [ ] SaveFileDialog & OpenFileDialog
 - [ ] StreamReader & StreamWriter
 - [ ] JSON, serialize & deserialize 
-- [ ] [Ü TransportListe (M10Ü)](../vadzim/CS-GK-VC-V/M13Serialisierung/Form1.cs)
+- [ ] [Ü TransportListe (M10Ü)](../severin/CS-GK-VC-S/M13Serialisierung/Form1.cs)
 
 Ü Anmeldeformular? / Gästeliste?
