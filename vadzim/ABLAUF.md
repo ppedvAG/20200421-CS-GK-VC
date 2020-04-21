@@ -27,15 +27,15 @@ sln props > startup projects > current
 
 ## M2 | DATA TYPES, OPERATORS
 
-- [ ] Datentypen
-- [ ] [bool](../vadzim/CS-GK-VC-V/Demo-bool/Dbool.cs)
-- [ ] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
-- [ ] [int](../vadzim/CS-GK-VC-V/Demo-int/Dint.cs)
-- [ ] [double](../vadzim/CS-GK-VC-V/Demo-double/Ddouble.cs)
-- [ ] Operatoren
-- [ ] Casting
-- [ ] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
-- [ ] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
+- [x] Datentypen
+- [x] [bool](../vadzim/CS-GK-VC-V/DataTypesLib/MyBool.cs)
+- [x] [string](../vadzim/CS-GK-VC-V/DataTypesLib/MyString.cs)
+- [x] [int](../vadzim/CS-GK-VC-V/DataTypesLib/MyInt.cs)
+- [x] [double](../vadzim/CS-GK-VC-V/DataTypesLib/MyDouble.cs)
+- [x] Operatoren
+- [x] Casting
+- [x] [enum](../vadzim/CS-GK-VC-V/DataTypesLib/MyEnum.cs)
+- [x] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
 
 ## M3 | ARRAYS & CONTROLS
 

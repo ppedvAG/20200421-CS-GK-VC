@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypesLib", "DataTypesLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypesLibConsumer", "DataTypesLibConsumer\DataTypesLibConsumer.csproj", "{E2AF9BEA-AFD7-453F-B8B6-B28A6BD16F13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2MiniRechner", "M2MiniRechner\M2MiniRechner.csproj", "{70CEF58F-325C-4D99-B3BB-F72F4A62C623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E2AF9BEA-AFD7-453F-B8B6-B28A6BD16F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AF9BEA-AFD7-453F-B8B6-B28A6BD16F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AF9BEA-AFD7-453F-B8B6-B28A6BD16F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CEF58F-325C-4D99-B3BB-F72F4A62C623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CEF58F-325C-4D99-B3BB-F72F4A62C623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CEF58F-325C-4D99-B3BB-F72F4A62C623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CEF58F-325C-4D99-B3BB-F72F4A62C623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
