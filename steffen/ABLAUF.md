@@ -10,8 +10,8 @@
 
 ## M0 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS
+- [x] Greeter
+- [ ] VS [homepage](https://visualstudio.microsoft.com/de/)
 - [ ] Git
 
 VS Installer > installierte Version ändern > sprachpakete
