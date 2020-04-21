@@ -1,4 +1,4 @@
-# ABLAUF VOM KURS, VADZIM
+# ABLAUF VOM KURS, SEVERIN
 
 [csharp-cheatsheet](CSHARP-CHEATSHEET.md)
 
@@ -10,8 +10,8 @@
 
 ## M0 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS
+- [x] Greeter
+- [ ] VS [Homepage](https://visualstudio.microsoft.com/de/)
 - [ ] Git
 
 VS Installer > installierte Version ändern > sprachpakete
