@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3038FE06-A058-4F22-A090-8A12943E96A7}</ProjectGuid>
+    <ProjectGuid>{6FBDA890-5684-47A6-9206-42863239AC40}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DataTypesLibConsumer</RootNamespace>
-    <AssemblyName>DataTypesLibConsumer</AssemblyName>
+    <RootNamespace>M3ArrayNControls</RootNamespace>
+    <AssemblyName>M3ArrayNControls</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTLConsumer.cs" />
+    <Compile Include="M3ArrNCtrl.cs" />
+    <Compile Include="MyArray.cs" />
+    <Compile Include="MyIf.cs" />
+    <Compile Include="MyRandom.cs" />
+    <Compile Include="MySwitch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DataTypesLib\DataTypesLib.csproj">
-      <Project>{fdce128f-a559-40ff-9609-0e7bfe43073f}</Project>
-      <Name>DataTypesLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
