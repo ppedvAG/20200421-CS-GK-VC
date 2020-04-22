@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD4597D5-AF7E-470A-8EE5-1FC88B3085AD}</ProjectGuid>
+    <ProjectGuid>{C1C5848E-913B-446D-833B-08A18FB9EADA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DataTypesLibConsumer</RootNamespace>
-    <AssemblyName>DataTypesLibConsumer</AssemblyName>
+    <RootNamespace>M5ClassesConsumer</RootNamespace>
+    <AssemblyName>M5ClassesConsumer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTLConsumer.cs" />
+    <Compile Include="M5ClassesConsumer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataTypesLib\DataTypesLib.csproj">
-      <Project>{5cca60d9-90d7-4d61-b503-b7c1a10cd88b}</Project>
-      <Name>DataTypesLib</Name>
+    <ProjectReference Include="..\M5Classes\M5Demo-Library.csproj">
+      <Project>{e184ed16-142f-4a93-8841-49a39bbe2377}</Project>
+      <Name>M5Demo-Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

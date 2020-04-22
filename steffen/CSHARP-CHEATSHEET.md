@@ -150,6 +150,9 @@ public Person(string fn, string ln)
     this.LastName = ln;
 }
 ```
+**SNIPPET**
+
+`ctor` `tab`
 
 <br><br>
 
@@ -215,15 +218,45 @@ myPerson.Firstname == "Max" && myPerson.Age < 30
 
 ## CONDITIONALS
 
+### IF
+
+ 
+
 **SEMANTIC SYNTAX**
 
+ 
+
 ```csharp
+if (_condition_)
+{
+    // true-Block
+}
+else
+{
+    // false-Block
+}
 ```
+ 
 
 **EXAMPLE**
 
+ 
 ```csharp
+if (DateTime.Now == "22.04.2020")
+{
+    Console.WriteLine("Tag für Sport");
+}
 ```
+<br>
+
+### IF-EXPRESSION
+
+ 
+
+```csharp
+true ? "true" : "false";
+```
+
 
 <br><br>
 

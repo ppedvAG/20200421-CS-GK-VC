@@ -8,6 +8,7 @@ namespace DataTypesLib
 {
     public static class MyInt
     {
+        // defaultwert  ist Null 0
         public static void ZeigeLiterals()
         {
             Console.WriteLine("ZeigeLiterals");
