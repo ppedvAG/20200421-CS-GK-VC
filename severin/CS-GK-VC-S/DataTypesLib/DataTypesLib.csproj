@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyBool.cs" />
+    <Compile Include="MyDouble.cs" />
+    <Compile Include="MyEnum.cs" />
     <Compile Include="MyInt.cs" />
     <Compile Include="MyString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
