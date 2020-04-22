@@ -39,22 +39,22 @@ sln props > startup projects > current
 
 ## M3 | ARRAYS & CONTROLS
 
-- [ ] [Arrays](../Steffen/CS-GK-VC-F/Demo-Array/DArray.cs)
-- [ ] if else
-- [ ] for
-- [ ] while & do while
-- [ ] switch
-- [ ] [Demo-Random](../Steffen/CS-GK-VC-F/Demo-Random/DRandom.cs)
-- [ ] [M3Zahlenratespiel](../Steffen/CS-GK-VC-F/M3Zufallszahl/M3Zufallszahl.cs)
+- [x] [Arrays](../Steffen/CS-GK-VC-F/M3ArrayNControls/MyArray.cs)
+- [x] if else
+- [x] for
+- [x] while & do while
+- [x] [switch](../Steffen/CS-GK-VC-F/M3ArrayNControls/MySwitch.cs)
+- [x] [Demo-Random](../Steffen/CS-GK-VC-F/M3ArrayNControls/MyRandom.cs)
+- [x] [M3Zahlenratespiel](../Steffen/CS-GK-VC-F/M3Zahlenraten/Zahlenraten.cs)
 
 ## M4 | METHODS
 
-- [ ] arguments
-- [ ] parameters
-- [ ] return
-- [ ] overloads
-- [ ] out & ref args
-- [ ] [DMethods](../Steffen/CS-GK-VC-F/Demo-Methods/DMethods.cs)
+- [x] arguments
+- [x] parameters
+- [x] return
+- [x] overloads
+- [x] out & ref parameters & args
+- [x] [DMethods](../Steffen/CS-GK-VC-F/M4Methods/M4Methods.cs)
 
 ## M5 | CLASSES & OOP
 

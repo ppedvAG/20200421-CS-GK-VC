@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo_Console
+namespace M1Demo_Console
 {
     class DConsole
     {

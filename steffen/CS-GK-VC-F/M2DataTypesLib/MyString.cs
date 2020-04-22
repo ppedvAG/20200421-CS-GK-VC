@@ -8,6 +8,7 @@ namespace DataTypesLib
 {
     public static class MyString
     {
+        // defaultwert  ist null
         public static void ZeigeInterpoliertesString()
         {
             string interpolStr = $"DateTime.Now: {DateTime.Now}";
