@@ -15,7 +15,7 @@ namespace DataTypesLib
 		public static void ZeigeEnumerator()
 		{
 			Pizzagrößen pizzagrößen1 = Pizzagrößen.mittel;
-			Pizzagrößen pizzagrößen2 = Pizzagrößen.family;
+			Pizzagrößen pizzagrößen2 = (Pizzagrößen)3;
 			Console.WriteLine($@"
 - Ich habe mir eine {pizzagrößen1}-Pizza genommen.
 - Und ich habe mir {pizzagrößen2}-Größe gegönnt");

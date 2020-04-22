@@ -35,4 +35,4 @@ nach n,		{DateTime.Now}	 nach t";
 			Console.WriteLine(myStr);
 		}
 	}
-}
+} // Null ist default Wert von String
