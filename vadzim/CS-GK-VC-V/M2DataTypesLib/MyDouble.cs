@@ -8,7 +8,8 @@ namespace DataTypesLib
 {
     public static class MyDouble
     {
-        
+        // Default-Wert bei double ist 0
+
         public static void ZeigeDouble()
         {
             string myDblAsStr1 = "4.22";

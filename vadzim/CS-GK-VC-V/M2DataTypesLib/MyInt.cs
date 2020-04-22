@@ -8,6 +8,8 @@ namespace DataTypesLib
 {
     public static class MyInt
     {
+        // Default-Wert bei int ist 0
+
         public static void ZeigeLiterals()
         {
             int myInt = -3;
@@ -25,6 +27,7 @@ namespace DataTypesLib
         {
             string myStr = "3";
             string myStr2 = "f";
+            // System.Int32
             int myInt = int.Parse(myStr);
             int myInt2;
             bool istMöglich = int.TryParse(myStr2, out myInt2);

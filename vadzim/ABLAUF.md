@@ -14,7 +14,9 @@
 - [x] VS [homepage](https://visualstudio.microsoft.com/de/)
 - [x] Git
 
-VS Installer > installierte Version ändern > sprachpakete
+VS Installer > installierte Version ändern > Sprachpakete
+
+Tools > Options > Text Editor > All Languages > General > Line numbers
 
 ## M1 | GETTING STARTED
 
@@ -39,22 +41,23 @@ sln props > startup projects > current
 
 ## M3 | ARRAYS & CONTROLS
 
-- [ ] [Arrays](../vadzim/CS-GK-VC-V/Demo-Array/DArray.cs)
-- [ ] if else
-- [ ] for
-- [ ] while & do while
-- [ ] switch
-- [ ] [Demo-Random](../vadzim/CS-GK-VC-V/Demo-Random/DRandom.cs)
-- [ ] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
+- [x] [Arrays](../vadzim/CS-GK-VC-V/M3ArrayNControls/MyArray.cs)
+- [x] [if](../vadzim/CS-GK-VC-V/M3ArrayNControls/MyIf.cs)
+- [x] for, siehe Arrays
+- [x] while & do while, siehe Zahlenratespiel
+- [x] [switch](../vadzim/CS-GK-VC-V/M3ArrayNControls/MySwitch.cs)
+- [x] [Klasse Random](../vadzim/CS-GK-VC-V/M3ArrayNControls/MyRandom.cs)
+- [x] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zahlenratespiel/M3Zahlenraten.cs)
 
 ## M4 | METHODS
 
-- [ ] arguments
-- [ ] parameters
-- [ ] return
-- [ ] overloads
-- [ ] out & ref args
-- [ ] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
+- [x] arguments
+- [x] parameters
+- [x] params
+- [x] return
+- [x] overloads
+- [x] out & ref parameters & args
+- [x] [Demo Methods](../vadzim/CS-GK-VC-V/M4Methods/M4Methods.cs)
 
 ## M5 | CLASSES & OOP
 
