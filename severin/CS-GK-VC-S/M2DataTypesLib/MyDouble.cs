@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataTypesLib
 {
-	public static class MyDouble
+	public static class MyDouble // 64-Bit Gleitkommazahlen Positiv und Negativ
 	{
 		public static void ZeigeDouble()
 		{
@@ -22,3 +22,4 @@ namespace DataTypesLib
 	}
 }
 //Console.WriteLine($"{}");
+// 0 ist default Wert von Double

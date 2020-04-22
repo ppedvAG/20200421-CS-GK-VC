@@ -28,33 +28,33 @@ sln props > startup projects > current
 ## M2 | DATA TYPES, OPERATORS
 
 - [x] Datentypen
-- [x] [bool](../severin/CS-GK-VC-S/Demo-bool/Dbool.cs)
-- [x] [string](../severin/CS-GK-VC-S/Demo-String/Dstring.cs)
-- [x] [int](../severin/CS-GK-VC-S/Demo-int/Dint.cs)
-- [x] [double](../severin/CS-GK-VC-S/Demo-double/Ddouble.cs)
+- [x] [bool](../severin/CS-GK-VC-S/DataTypesLib/MyBool.cs)
+- [x] [string](../severin/CS-GK-VC-S/DataTypesLib/MyString.cs)
+- [x] [int](../severin/CS-GK-VC-S/DataTypesLib/MyInt.cs)
+- [x] [double](../severin/CS-GK-VC-S/DataTypesLib/MyDouble.cs)
 - [x] Operatoren
 - [x] Casting
-- [x] [enum](../severin/CS-GK-VC-S/Demo-enum/Denum.cs)
-- [x] [Ü MiniRechner](../severin/CS-GK-VC-S/M2MiniRechner/M2MiniRechner.cs)
+- [x] [enum](../severin/CS-GK-VC-S/DataTypesLib/MyEnum.cs)
+- [x] [Ü MiniRechner](../severin/CS-GK-VC-S/Mini-Rechner/MiniRechner.cs)
 
 ## M3 | ARRAYS & CONTROLS
 
-- [ ] [Arrays](../severin/CS-GK-VC-S/Demo-Array/DArray.cs)
-- [ ] if else
-- [ ] for
-- [ ] while & do while
-- [ ] switch
-- [ ] [Demo-Random](../severin/CS-GK-VC-S/Demo-Random/DRandom.cs)
-- [ ] [M3Zahlenratespiel](../severin/CS-GK-VC-S/M3Zufallszahl/M3Zufallszahl.cs)
+- [x] [Arrays](../severin/CS-GK-VC-S/M3ArrayNControls/MyArray.cs)
+- [x] [if else](../severin/CS-GK-VC-S/M3ArrayNControls/MyIf.cs)
+- [x] for // siehe Arrays
+- [x] while & do while // siehe Zahlenratespiel
+- [x] [switch](../severin/CS-GK-VC-S/M3ArrayNControls/MySwitch.cs)
+- [x] [Demo-Random](../severin/CS-GK-VC-S/M3ArrayNControls/MyRandom.cs)
+- [x] [M3Zahlenratespiel](../severin/CS-GK-VC-S/M3Zahlenratespiel/Zahlen.cs)
 
 ## M4 | METHODS
 
-- [ ] arguments
-- [ ] parameters
-- [ ] return
-- [ ] overloads
-- [ ] out & ref args
-- [ ] [DMethods](../severin/CS-GK-VC-S/Demo-Methods/DMethods.cs)
+- [x] arguments
+- [x] parameters
+- [x] return
+- [x] overloads
+- [x] out & ref parameters & args
+- [x] [DMethods](../severin/CS-GK-VC-S/M4Methods/Methods.cs)
 
 ## M5 | CLASSES & OOP
 

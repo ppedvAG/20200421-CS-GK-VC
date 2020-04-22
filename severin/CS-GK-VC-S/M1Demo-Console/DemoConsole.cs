@@ -10,14 +10,16 @@ namespace Demo_Console
 	{
 		static void Main(string[] args)
 		{
+			// Region ist wie ein Block
 			#region 1
-			Console.WriteLine("\n### WriteLine(String) ###");
+			Console.WriteLine("\n### WriteLine(String) ###"); // # macht eine Hervorhebung Fett
 			int alter = 35;
 			string name = "Severin";
 			Console.WriteLine("mein Text für die Konsole");
 			Console.WriteLine(alter);
 			Console.WriteLine(name);
 			#endregion
+			// Ende des Blocks
 
 			Console.WriteLine("\n### WriteLine(String, Objekt(arg)0, Objekt(arg)1) ###");
 			Console.WriteLine("Ich heiße {0} und bin {1} Jahre alt", name, alter);
