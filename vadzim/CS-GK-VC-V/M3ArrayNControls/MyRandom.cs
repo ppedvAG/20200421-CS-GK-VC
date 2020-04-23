@@ -12,7 +12,10 @@ namespace M3ArrayNControls
         {
             Random random = new Random();
             int zufallszahl = random.Next(5); // liefert eine Zufallszahl zw. 0 und 4 inclusive
-            Console.WriteLine($"Zufallszahl: {zufallszahl}"); 
+            Console.WriteLine($"Zufallszahl1: {zufallszahl}");
+            Random random2 = new Random();
+            Console.WriteLine($"Zufallszahl2: {random2.Next(1, 5)}");
+
         }
     }
 }
