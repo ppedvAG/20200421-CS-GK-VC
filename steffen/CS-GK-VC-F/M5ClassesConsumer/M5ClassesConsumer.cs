@@ -16,7 +16,9 @@ namespace M5Demo_Library
             detail.SagHallo();
             Console.WriteLine(detail.Breite);
             Console.WriteLine(detail.Höhe);
-           
+            Console.WriteLine(detail.ToString());
+            Console.WriteLine(detail.GetHashCode());
+            Console.WriteLine(detail.GetType());
             Console.ReadKey();
         }
     }
