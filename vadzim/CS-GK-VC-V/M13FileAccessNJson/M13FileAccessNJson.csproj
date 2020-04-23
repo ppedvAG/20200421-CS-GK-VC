@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C18D757-674B-42DB-A91F-EC50F3A3A2EF}</ProjectGuid>
+    <ProjectGuid>{67A06BB0-F14E-4814-8BB7-785FD1764811}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>M5Fuhrpark</RootNamespace>
-    <AssemblyName>M5Fuhrpark</AssemblyName>
+    <RootNamespace>M13FileAccessNJson</RootNamespace>
+    <AssemblyName>M13FileAccessNJson</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,16 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Flugzeug.cs" />
-    <Compile Include="FuhrparkApp.cs" />
-    <Compile Include="IKannAndereTransportieren.cs" />
-    <Compile Include="IKannRollen.cs" />
+    <Compile Include="M13FileAccApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Schiff.cs" />
-    <Compile Include="Transport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\M5Fuhrpark\M5Fuhrpark.csproj">
+      <Project>{6c18d757-674b-42db-a91f-ec50f3a3a2ef}</Project>
+      <Name>M5Fuhrpark</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

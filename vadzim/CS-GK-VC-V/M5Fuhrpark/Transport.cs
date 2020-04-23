@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace M5Fuhrpark
 {
-    class Transport
+    public class Transport : Object
     {
         // types
         public enum Zustand { aus, an }
@@ -20,7 +20,7 @@ namespace M5Fuhrpark
         public Zustand FZustand { get; private set; }
 
         // ctor
-        public Transport(string name, int preis, int maximalGeschwindigkeit)
+        public Transport(string name, double preis, int maximalGeschwindigkeit)
         {
             Name = name;
             Preis = preis;

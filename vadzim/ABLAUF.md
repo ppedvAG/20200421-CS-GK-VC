@@ -23,20 +23,20 @@ Tools > Options > Text Editor > All Languages > General > Line numbers
 - [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
 - [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/HelloWorld.cs)
-- [x] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
+- [x] [DConsole](../vadzim/CS-GK-VC-V/M1Demo-Console/DConsole.cs)
 
 sln props > startup projects > current
 
 ## M2 | DATA TYPES, OPERATORS
 
 - [x] Datentypen
-- [x] [bool](../vadzim/CS-GK-VC-V/DataTypesLib/MyBool.cs)
-- [x] [string](../vadzim/CS-GK-VC-V/DataTypesLib/MyString.cs)
-- [x] [int](../vadzim/CS-GK-VC-V/DataTypesLib/MyInt.cs)
-- [x] [double](../vadzim/CS-GK-VC-V/DataTypesLib/MyDouble.cs)
+- [x] [bool](../vadzim/CS-GK-VC-V/M2DataTypesLib/MyBool.cs)
+- [x] [string](../vadzim/CS-GK-VC-V/M2DataTypesLib/MyString.cs)
+- [x] [int](../vadzim/CS-GK-VC-V/M2DataTypesLib/MyInt.cs)
+- [x] [double](../vadzim/CS-GK-VC-V/M2DataTypesLib/MyDouble.cs)
 - [x] Operatoren
 - [x] Casting
-- [x] [enum](../vadzim/CS-GK-VC-V/DataTypesLib/MyEnum.cs)
+- [x] [enum](../vadzim/CS-GK-VC-V/M2DataTypesLib/MyEnum.cs)
 - [x] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
 
 ## M3 | ARRAYS & CONTROLS
@@ -61,31 +61,28 @@ sln props > startup projects > current
 
 ## M5 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
-- [ ] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
-- [ ] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
-- [ ] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü Transport](../vadzim/CS-GK-VC-V/M5Fuhrpark/Transport.cs)
-- [ ] [Ü TransportConsumer](../vadzim/CS-GK-VC-V/M5Fuhrpark/FuhrparkApp.cs)
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
+- [x] [public Class](../vadzim/CS-GK-VC-V/M5Classes/Detail.cs) <!-- der bessere Name: MyClassWFields -->
+- [x] [private Class](../vadzim/CS-GK-VC-V/M5Classes/Umrechnung.cs)
+- [x] [Classes Consumer](../vadzim/CS-GK-VC-V/M5ClassesConsumer/M5ClassesConsumer.cs)
+- [x] [Ü Transport](../vadzim/CS-GK-VC-V/M5Fuhrpark/Transport.cs)
+- [x] [Ü TransportConsumer](../vadzim/CS-GK-VC-V/M5Fuhrpark/FuhrparkApp.cs)
 
 ## M6 | INHERITENCE / VERERBUNG
 
 - [ ] base
 - [ ] virtual & override methods
 - [ ] abstract methods
-- [ ] [DLibrary - MyRandom](../vadzim/CS-GK-VC-V/Demo-Library/MyRandom.cs)
-- [ ] [DLibraryConsumer - Region Call MyRandom](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [DLibrary - MyClassInhCtor](../vadzim/CS-GK-VC-V/Demo-Library/MyClassInhCtor.cs)
-- [ ] [DLibraryConsumer - Region Call MyClassInhCtor](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü Flugzeug](../vadzim/CS-GK-VC-V/MTransport/Flugzeug.cs)
-- [ ] [Ü PKW](../vadzim/CS-GK-VC-V/MTransport/PKW.cs)
-- [ ] [Ü Schiff](../vadzim/CS-GK-VC-V/MTransport/Schiff.cs)
+- [ ] [DLibrary - MyRandom](../vadzim/CS-GK-VC-V/M3Zahlenratespiel/MyRandomT.cs) <!-- *todo -->
+- [ ] [Ü Flugzeug](../vadzim/CS-GK-VC-V/M5Fuhrpark/Flugzeug.cs)
+- [ ] [Ü PKW](../vadzim/CS-GK-VC-V/M5Fuhrpark/PKW.cs)
+- [ ] [Ü Schiff](../vadzim/CS-GK-VC-V/M5Fuhrpark/Schiff.cs)
 
 ## M7 | INTERFACES & POLYMORPHISM
 
