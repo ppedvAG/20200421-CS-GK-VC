@@ -21,21 +21,21 @@ VS Installer > installierte Version ändern > sprachpakete
 - [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
 - [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] [M1HelloWorld](../severin/CS-GK-VC-S/M1HelloWorld/M1HelloWorld.cs)
-- [x] [DConsole](../severin/CS-GK-VC-S/Demo-Console/DemoConsole.cs)
+- [x] [DConsole](../severin/CS-GK-VC-S/M1Demo-Console/DemoConsole.cs)
 
 sln props > startup projects > current
 
 ## M2 | DATA TYPES, OPERATORS
 
 - [x] Datentypen
-- [x] [bool](../severin/CS-GK-VC-S/DataTypesLib/MyBool.cs)
-- [x] [string](../severin/CS-GK-VC-S/DataTypesLib/MyString.cs)
-- [x] [int](../severin/CS-GK-VC-S/DataTypesLib/MyInt.cs)
-- [x] [double](../severin/CS-GK-VC-S/DataTypesLib/MyDouble.cs)
+- [x] [bool](../severin/CS-GK-VC-S/M2DataTypesLib/MyBool.cs)
+- [x] [string](../severin/CS-GK-VC-S/M2DataTypesLib/MyString.cs)
+- [x] [int](../severin/CS-GK-VC-S/M2DataTypesLib/MyInt.cs)
+- [x] [double](../severin/CS-GK-VC-S/M2DataTypesLib/MyDouble.cs)
 - [x] Operatoren
 - [x] Casting
-- [x] [enum](../severin/CS-GK-VC-S/DataTypesLib/MyEnum.cs)
-- [x] [Ü MiniRechner](../severin/CS-GK-VC-S/Mini-Rechner/MiniRechner.cs)
+- [x] [enum](../severin/CS-GK-VC-S/M2DataTypesLib/MyEnum.cs)
+- [x] [Ü MiniRechner](../severin/CS-GK-VC-S/M2MiniRechner/MiniRechner.cs)
 
 ## M3 | ARRAYS & CONTROLS
 
@@ -65,9 +65,9 @@ sln props > startup projects > current
 - [ ] access modifier
 - [ ] inctances / objects
 - [ ] destructor
-- [ ] [DLibrary - MyClass](../severin/CS-GK-VC-S/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
-- [ ] [DLibrary - MyClassWProps](../severin/CS-GK-VC-S/Demo-Library/MyClassWProps.cs)
-- [ ] [DLibraryConsumer](../severin/CS-GK-VC-S/Demo-Library-Consumer/DLibConsumer.cs)
+- [ ] [public class](../severin/CS-GK-VC-S/M5Classes/Detail.cs)
+- [ ] [private class](../severin/CS-GK-VC-S/M5Classes/Umrechnung.cs)
+- [ ] [Classes Consumer](../severin/CS-GK-VC-S/M5ClassesConsumer/M5ClassesConsumer.cs)
 - [ ] [Ü MTransport](../severin/CS-GK-VC-S/MTransport/Transport.cs)
 - [ ] [Ü MTransportConsumer](../severin/CS-GK-VC-S/MTransport/TConsumer.cs)
 

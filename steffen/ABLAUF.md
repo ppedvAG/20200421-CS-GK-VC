@@ -21,21 +21,21 @@ VS Installer > installierte Version ändern > sprachpakete
 - [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
 - [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] [M1HelloWorld](../Steffen/CS-GK-VC-F/M1HelloWorld/M1HelloWorld.cs)
-- [x] [DConsole](../steffen/CS-GK-VC-F/Demo-Console/DConsole.cs)
+- [x] [DConsole](../steffen/CS-GK-VC-F/M1Demo-Console/DConsole.cs)
 
 sln props > startup projects > current
 
 ## M2 | DATA TYPES, OPERATORS
 
 - [x] Datentypen
-- [x] [bool](../Steffen/CS-GK-VC-F/DataTypesLib/MyBool.cs)
-- [x] [string](../Steffen/CS-GK-VC-F/DataTypesLib/MyString.cs)
-- [x] [int](../Steffen/CS-GK-VC-F/DataTypesLib/Myint.cs)
-- [x] [double](../Steffen/CS-GK-VC-F/DataTypesLib/MyDouble.cs)
+- [x] [bool](../Steffen/CS-GK-VC-F/M2DataTypesLib/MyBool.cs)
+- [x] [string](../Steffen/CS-GK-VC-F/M2DataTypesLib/MyString.cs)
+- [x] [int](../Steffen/CS-GK-VC-F/M2DataTypesLib/Myint.cs)
+- [x] [double](../Steffen/CS-GK-VC-F/M2DataTypesLib/MyDouble.cs)
 - [x] Operatoren
 - [x] Casting
-- [x] [enum](../Steffen/CS-GK-VC-F/DataTypesLib/MyEnum.cs)
-- [x] [Ü MiniRechner](../Steffen/CS-GK-VC-F/Mini-Rechner/Program.cs)
+- [x] [enum](../Steffen/CS-GK-VC-F/M2DataTypesLib/MyEnum.cs)
+- [x] [Ü MiniRechner](../Steffen/CS-GK-VC-F/M2Mini-Rechner/Program.cs)
 
 ## M3 | ARRAYS & CONTROLS
 
@@ -65,9 +65,9 @@ sln props > startup projects > current
 - [ ] access modifier
 - [ ] inctances / objects
 - [ ] destructor
-- [ ] [DLibrary - MyClass](../Steffen/CS-GK-VC-F/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
-- [ ] [DLibrary - MyClassWProps](../Steffen/CS-GK-VC-F/Demo-Library/MyClassWProps.cs)
-- [ ] [DLibraryConsumer](../Steffen/CS-GK-VC-F/Demo-Library-Consumer/DLibConsumer.cs)
+- [ ] [public class](../Steffen/CS-GK-VC-F/M5Classes/Detail.cs)
+- [ ] [private class](../Steffen/CS-GK-VC-F/M5Classes/Umrechnung.cs)
+- [ ] [ClassesConsumer](../Steffen/CS-GK-VC-F/M5ClassesConsumer/M5ClassesConsumer.cs)
 - [ ] [Ü MTransport](../Steffen/CS-GK-VC-F/MTransport/Transport.cs)
 - [ ] [Ü MTransportConsumer](../Steffen/CS-GK-VC-F/MTransport/TConsumer.cs)
 
