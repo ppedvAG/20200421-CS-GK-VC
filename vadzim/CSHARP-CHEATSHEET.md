@@ -31,6 +31,7 @@
 
 Konvention bei Klassennamen - PascalCase<br>
 Wenn kein Modifizierer, dann ist es private
+Mit Anlegen von Klassen legen wir neue Datentypen an 
 
 ```csharp
 _modifier_ class _Identifier_

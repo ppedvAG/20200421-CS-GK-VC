@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2DataTypesLib", "M2DataTyp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5ClassesConsumer", "M5ClassesConsumer\M5ClassesConsumer.csproj", "{C72853B0-5620-4FD7-9054-13B8F3857D5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5Fuhrpark", "M5Fuhrpark\M5Fuhrpark.csproj", "{6C18D757-674B-42DB-A91F-EC50F3A3A2EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C72853B0-5620-4FD7-9054-13B8F3857D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C72853B0-5620-4FD7-9054-13B8F3857D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C72853B0-5620-4FD7-9054-13B8F3857D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C18D757-674B-42DB-A91F-EC50F3A3A2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C18D757-674B-42DB-A91F-EC50F3A3A2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C18D757-674B-42DB-A91F-EC50F3A3A2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C18D757-674B-42DB-A91F-EC50F3A3A2EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

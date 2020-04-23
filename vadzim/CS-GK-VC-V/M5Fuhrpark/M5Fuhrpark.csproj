@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9A9D762-039F-415D-859D-7C1AECAE8029}</ProjectGuid>
+    <ProjectGuid>{6C18D757-674B-42DB-A91F-EC50F3A3A2EF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>M3Zahlenratespiel</RootNamespace>
-    <AssemblyName>M3Zahlenratespiel</AssemblyName>
+    <RootNamespace>M5Fuhrpark</RootNamespace>
+    <AssemblyName>M5Fuhrpark</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="M3Zahlenraten.cs" />
-    <Compile Include="MyRandomT.cs" />
+    <Compile Include="FuhrparkApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\M3ArrayNControls\M3ArrayNControls.csproj">
-      <Project>{64ef572a-90ec-4192-93cd-b4a079798cd3}</Project>
-      <Name>M3ArrayNControls</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

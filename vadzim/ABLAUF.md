@@ -71,8 +71,8 @@ sln props > startup projects > current
 - [ ] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
 - [ ] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
 - [ ] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü MTransport](../vadzim/CS-GK-VC-V/MTransport/Transport.cs)
-- [ ] [Ü MTransportConsumer](../vadzim/CS-GK-VC-V/MTransport/TConsumer.cs)
+- [ ] [Ü Transport](../vadzim/CS-GK-VC-V/M5Fuhrpark/Transport.cs)
+- [ ] [Ü TransportConsumer](../vadzim/CS-GK-VC-V/M5Fuhrpark/FuhrparkApp.cs)
 
 ## M6 | INHERITENCE / VERERBUNG
 
