@@ -58,31 +58,27 @@ sln props > startup projects > current
 
 ## M5 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
-- [ ] [public class](../Steffen/CS-GK-VC-F/M5Classes/Detail.cs)
-- [ ] [private class](../Steffen/CS-GK-VC-F/M5Classes/Umrechnung.cs)
-- [ ] [ClassesConsumer](../Steffen/CS-GK-VC-F/M5ClassesConsumer/M5ClassesConsumer.cs)
-- [ ] [Ü MTransport](../Steffen/CS-GK-VC-F/MTransport/Transport.cs)
-- [ ] [Ü MTransportConsumer](../Steffen/CS-GK-VC-F/MTransport/TConsumer.cs)
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
+- [x] [public class](../Steffen/CS-GK-VC-F/M5Classes/Detail.cs)
+- [x] [private class](../Steffen/CS-GK-VC-F/M5Classes/Umrechnung.cs)
+- [x] [ClassesConsumer](../Steffen/CS-GK-VC-F/M5ClassesConsumer/M5ClassesConsumer.cs)
+- [x] [Ü MTransport](../Steffen/CS-GK-VC-F/M5Transport/Transportmittel.cs)
+- [x] [Ü MTransportConsumer](../Steffen/CS-GK-VC-F/M5Transport/FuhrparkApp.cs)
 
 ## M6 | INHERITENCE / VERERBUNG
 
-- [ ] base
-- [ ] virtual & override methods
-- [ ] abstract methods
-- [ ] [DLibrary - MyRandom](../Steffen/CS-GK-VC-F/Demo-Library/MyRandom.cs)
-- [ ] [DLibraryConsumer - Region Call MyRandom](../Steffen/CS-GK-VC-F/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [DLibrary - MyClassInhCtor](../Steffen/CS-GK-VC-F/Demo-Library/MyClassInhCtor.cs)
-- [ ] [DLibraryConsumer - Region Call MyClassInhCtor](../Steffen/CS-GK-VC-F/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü Flugzeug](../Steffen/CS-GK-VC-F/MTransport/Flugzeug.cs)
-- [ ] [Ü PKW](../Steffen/CS-GK-VC-F/MTransport/PKW.cs)
-- [ ] [Ü Schiff](../Steffen/CS-GK-VC-F/MTransport/Schiff.cs)
+- [x] base
+- [x] virtual & override methods
+- [x] abstract methods
+- [x] [Ü Flugzeug](../steffen/CS-GK-VC-F/M5Transport/Flugzeuge.cs)
+- [x] [Ü PKW](../steffen/CS-GK-VC-F/M5Transport/PKW.cs)
+- [x] [Ü Schiff](../Steffen/CS-GK-VC-F/M5Transport/Schiffe.cs)
 
 ## M7 | INTERFACES & POLYMORPHISM
 

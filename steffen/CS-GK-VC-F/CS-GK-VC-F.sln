@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2DataTypesLibConsumer", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5Classes", "M5Classes\M5Classes.csproj", "{E184ED16-142F-4A93-8841-49A39BBE2377}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M5Fuhrpark", "M5Transport\M5Fuhrpark.csproj", "{0239ECF8-197F-4558-A9FB-977A0DA1DDAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M13FileAccessNJson", "M13FileAccessNJson\M13FileAccessNJson.csproj", "{30F5DC03-DAA1-4F30-BDCA-60929B49ECAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{E184ED16-142F-4A93-8841-49A39BBE2377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E184ED16-142F-4A93-8841-49A39BBE2377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E184ED16-142F-4A93-8841-49A39BBE2377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0239ECF8-197F-4558-A9FB-977A0DA1DDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0239ECF8-197F-4558-A9FB-977A0DA1DDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0239ECF8-197F-4558-A9FB-977A0DA1DDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0239ECF8-197F-4558-A9FB-977A0DA1DDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F5DC03-DAA1-4F30-BDCA-60929B49ECAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F5DC03-DAA1-4F30-BDCA-60929B49ECAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F5DC03-DAA1-4F30-BDCA-60929B49ECAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F5DC03-DAA1-4F30-BDCA-60929B49ECAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
