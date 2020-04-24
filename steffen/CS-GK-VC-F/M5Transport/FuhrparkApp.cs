@@ -24,6 +24,20 @@ namespace M5Transport
             Flugzeuge flugzeuge = new Flugzeuge("Flugzeug 1", 250, 45000, 0, 25000);
             string Info3 = flugzeuge.BeschreibeMich();
             Console.WriteLine($"Beschreibung Flugzeuge: {Info3}");
+            Flugzeuge flugzeuge1 = new Flugzeuge("Boing", 800, 1780000, 0, 0);
+            List<Passagier> pListe = new List<Passagier>();
+            pListe.Add(new Passagier("Alter", 30));
+            pListe.Add(new Passagier("Neuer", 20));
+            pListe.Add(new Passagier("Jung", 15));
+            flugzeuge1.Passagierliste = pListe;
+
+            foreach (var item in flugzeuge1.Passagierliste)
+            {
+                Console.WriteLine("Nachnahme:" + item.Nachname);
+                Console.WriteLine("Alter:" + item.Alter);
+            }
+
+            //flugzeuge1.Passagierliste = List<Passagier>
             Console.ReadKey();
         }
     }

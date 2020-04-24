@@ -27,6 +27,8 @@ namespace M5Transport
         // Zustand nur über Methoden änderbar
         public MotorZustand MyZustand { get; private set; }
 
+        public List<Passagier> Passagierliste { get; set; }
+
         //Construktor
         public Transportmittel (string InName, int InMaxG, double InPrice, int InActG)
         {

@@ -82,29 +82,29 @@ sln props > startup projects > current
 
 ## M7 | INTERFACES & POLYMORPHISM
 
-- [ ] interfaces
-- [ ] override vs overload
-- [ ] [Ü IKannAndereTransportieren](../Steffen/CS-GK-VC-F/MTransport/IKannAndereTransportieren.cs)
-- [ ] [Ü IMitRädern](../Steffen/CS-GK-VC-F/MTransport/IMitRädern.cs)
+- [x] interfaces
+- [x] override vs overload
+- [x] [Ü IKannAndereTransportieren](../Steffen/CS-GK-VC-F/M5Transport/IKannTransportieren.cs)
+- [x] [Ü IMitRädern](../Steffen/CS-GK-VC-F/M5Transport/IKannRollen.cs)
 
 DLibrary, DLibraryConsumer
 
 ## M8 | GENERIC DATA STRUCTURES
 
-- [ ] [List`<T>`](../Steffen/CS-GK-VC-F/Demo-List/DList.cs)
-- [ ] [Stack`<T>`](../Steffen/CS-GK-VC-F/Demo-Stack/DStack.cs)
-- [ ] [Queue`<T>`](../Steffen/CS-GK-VC-F/Demo-Queue/DQueue.cs)
-- [ ] [KeyValuePair`<T1, T2>`](../Steffen/CS-GK-VC-F/Demo-KeyValuePair/DKeyValuePair.cs)
-- [ ] [Dictionary`<T1, T2>`](../Steffen/CS-GK-VC-F/Demo-Dictionary/DDictionary.cs)
-- [ ] Hachtable
-- [ ] [Ü Passagierliste](../Steffen/CS-GK-VC-F/MTransport/Flugzeug.cs)
+- [x] [List`<T>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyList.cs)
+- [x] [Stack`<T>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyStack.cs)
+- [x] [Queue`<T>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyQueue.cs)
+- [x] [KeyValuePair`<T1, T2>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyKeyValuePair.cs)
+- [x] [Dictionary`<T1, T2>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyDictionary.cs)
+- [x] Hachtable
+- [x] [Ü Passagierliste](../Steffen/CS-GK-VC-F/M5Transport/FuhrparkApp.cs)
 
 ## M9 | WINDOWS FORMS
 
-- [ ] partial classes
-- [ ] widgets / components
-- [ ] component props
-- [ ] [TicTacToe](../Steffen/CS-GK-VC-F/Demo-WinForm/DWinForm.cs)
+- [x] partial classes
+- [x] widgets / components
+- [x] component props
+- [x] [TicTacToe](../Steffen/CS-GK-VC-F/M9WinFormsTicTacToe/Form1.cs)
 
 ## M10 | DELEGATES & EVENTS
 
@@ -128,6 +128,7 @@ Klasse Stopwatch?
 - [ ] Exception & throw
 - [ ] try catch finally
 - [ ] Exception types
+- [ ] Custom Exeption 
 - [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
 - [ ] [Demo-Exception](../Steffen/CS-GK-VC-F/Demo-Exceptions/Form1.cs)
 

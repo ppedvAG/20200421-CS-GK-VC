@@ -12,6 +12,8 @@ namespace M5Transport
         public int AnzahlRäder { get; set; }
         public int Luftdruck { get; set; }
 
+
+
         public Flugzeuge(string InName, int InMaxG, double InPrice, int InActG, int InFlughöhe) : base(InName, InMaxG, InPrice, InActG)
         {
             Flughöhe = InFlughöhe;
