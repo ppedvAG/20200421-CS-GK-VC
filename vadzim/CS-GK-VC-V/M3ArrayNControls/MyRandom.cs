@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace M3ArrayNControls
 {
-    class MyRandom
+    public class MyRandom : Random
     {
         public void ZeigeRandom()
         {
@@ -16,6 +16,11 @@ namespace M3ArrayNControls
             Random random2 = new Random();
             Console.WriteLine($"Zufallszahl2: {random2.Next(1, 5)}");
 
+        }
+
+        public int NextInclusive(int max)
+        {
+            return base.Next(max + 1);
         }
     }
 }

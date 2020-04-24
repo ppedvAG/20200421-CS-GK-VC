@@ -14,7 +14,20 @@ namespace M3Zahlenratespiel
             //Prüfe Nutzereingabe und gebe aus ob seine Zahl größer, gleich oder kleiner der Zufallszahl ist
 
             Random generator = new Random();
-            int zufallszahl = generator.Next(1, 6);
+            int zufallszahl = generator.Next(1);    
+            
+
+            Console.WriteLine("\n ## TEST ##");
+            Console.WriteLine($"{zufallszahl}");
+            MyRandomT myRandom = new MyRandomT();
+            int zufallszahl2 = myRandom.Next(1);
+            Console.WriteLine($"{zufallszahl2}");
+
+            M3ArrayNControls.MyRandom myRandom3 = new M3ArrayNControls.MyRandom();
+            int zufallszahl3 = myRandom3.Next(1);
+            Console.WriteLine($"{zufallszahl3}");
+
+
             int ratemalzahl;
             do
             {

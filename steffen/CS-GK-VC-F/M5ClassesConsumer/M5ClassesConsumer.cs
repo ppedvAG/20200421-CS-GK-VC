@@ -1,11 +1,11 @@
-﻿using M5Demo_Library;
+﻿using M5ClassesConsumer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace M5Demo_Library
+namespace M5ClassesConsumer
 {
     class M5ClassesConsumer
     {
@@ -19,6 +19,7 @@ namespace M5Demo_Library
             Console.WriteLine(detail.ToString());
             Console.WriteLine(detail.GetHashCode());
             Console.WriteLine(detail.GetType());
+            Console.WriteLine(detail.DefaultEinheit);
             Console.ReadKey();
         }
     }

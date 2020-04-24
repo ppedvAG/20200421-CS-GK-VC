@@ -11,8 +11,13 @@ namespace M3Zahlenraten
         public static void ZufallzahlSchleife()
         {
             Random random = new Random();
-
+            // es kommt max.  0, 1, 2, 3, 4 zurück
             int Zufallszahl = random.Next(5);
+            Console.WriteLine($"Die Zufallszahl ist: {Zufallszahl}");
+            Console.WriteLine("\n ## Test ##");
+            MyRandom myRandom = new MyRandom();
+            int ZufallszahlNeu = myRandom.Next(5);
+            Console.WriteLine($"Die Zufallszahlneu ist: {ZufallszahlNeu}");
 
             Console.WriteLine("Bitte geben Sie Ihre getippte Zahl ein: ");
             int intZahl = int.Parse(Console.ReadLine());

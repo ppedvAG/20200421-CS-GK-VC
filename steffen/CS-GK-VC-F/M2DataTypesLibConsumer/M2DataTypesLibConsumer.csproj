@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\M2DataTypesLib\M2DataTypesLib.csproj">
+      <Project>{5cca60d9-90d7-4d61-b503-b7c1a10cd88b}</Project>
+      <Name>M2DataTypesLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

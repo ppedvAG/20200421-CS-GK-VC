@@ -10,7 +10,7 @@ namespace M3Zahlenraten
     {
         static void Main(string[] args)
         {
-            ZufallszahlPrüfen.ZufallzahlPrüfen();
+            //ZufallszahlPrüfen.ZufallzahlPrüfen();
             ZufallszahlSchleife.ZufallzahlSchleife();
             Console.ReadKey();
         }

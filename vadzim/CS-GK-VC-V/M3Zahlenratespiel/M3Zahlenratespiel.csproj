@@ -44,10 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="M3Zahlenraten.cs" />
+    <Compile Include="MyRandomT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\M3ArrayNControls\M3ArrayNControls.csproj">
+      <Project>{64ef572a-90ec-4192-93cd-b4a079798cd3}</Project>
+      <Name>M3ArrayNControls</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
