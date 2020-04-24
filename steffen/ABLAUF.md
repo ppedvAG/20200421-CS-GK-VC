@@ -58,57 +58,53 @@ sln props > startup projects > current
 
 ## M5 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
-- [ ] [public class](../Steffen/CS-GK-VC-F/M5Classes/Detail.cs)
-- [ ] [private class](../Steffen/CS-GK-VC-F/M5Classes/Umrechnung.cs)
-- [ ] [ClassesConsumer](../Steffen/CS-GK-VC-F/M5ClassesConsumer/M5ClassesConsumer.cs)
-- [ ] [Ü MTransport](../Steffen/CS-GK-VC-F/MTransport/Transport.cs)
-- [ ] [Ü MTransportConsumer](../Steffen/CS-GK-VC-F/MTransport/TConsumer.cs)
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
+- [x] [public class](../Steffen/CS-GK-VC-F/M5Classes/Detail.cs)
+- [x] [private class](../Steffen/CS-GK-VC-F/M5Classes/Umrechnung.cs)
+- [x] [ClassesConsumer](../Steffen/CS-GK-VC-F/M5ClassesConsumer/M5ClassesConsumer.cs)
+- [x] [Ü MTransport](../Steffen/CS-GK-VC-F/M5Transport/Transportmittel.cs)
+- [x] [Ü MTransportConsumer](../Steffen/CS-GK-VC-F/M5Transport/FuhrparkApp.cs)
 
 ## M6 | INHERITENCE / VERERBUNG
 
-- [ ] base
-- [ ] virtual & override methods
-- [ ] abstract methods
-- [ ] [DLibrary - MyRandom](../Steffen/CS-GK-VC-F/Demo-Library/MyRandom.cs)
-- [ ] [DLibraryConsumer - Region Call MyRandom](../Steffen/CS-GK-VC-F/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [DLibrary - MyClassInhCtor](../Steffen/CS-GK-VC-F/Demo-Library/MyClassInhCtor.cs)
-- [ ] [DLibraryConsumer - Region Call MyClassInhCtor](../Steffen/CS-GK-VC-F/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü Flugzeug](../Steffen/CS-GK-VC-F/MTransport/Flugzeug.cs)
-- [ ] [Ü PKW](../Steffen/CS-GK-VC-F/MTransport/PKW.cs)
-- [ ] [Ü Schiff](../Steffen/CS-GK-VC-F/MTransport/Schiff.cs)
+- [x] base
+- [x] virtual & override methods
+- [x] abstract methods
+- [x] [Ü Flugzeug](../steffen/CS-GK-VC-F/M5Transport/Flugzeuge.cs)
+- [x] [Ü PKW](../steffen/CS-GK-VC-F/M5Transport/PKW.cs)
+- [x] [Ü Schiff](../Steffen/CS-GK-VC-F/M5Transport/Schiffe.cs)
 
 ## M7 | INTERFACES & POLYMORPHISM
 
-- [ ] interfaces
-- [ ] override vs overload
-- [ ] [Ü IKannAndereTransportieren](../Steffen/CS-GK-VC-F/MTransport/IKannAndereTransportieren.cs)
-- [ ] [Ü IMitRädern](../Steffen/CS-GK-VC-F/MTransport/IMitRädern.cs)
+- [x] interfaces
+- [x] override vs overload
+- [x] [Ü IKannAndereTransportieren](../Steffen/CS-GK-VC-F/M5Transport/IKannTransportieren.cs)
+- [x] [Ü IMitRädern](../Steffen/CS-GK-VC-F/M5Transport/IKannRollen.cs)
 
 DLibrary, DLibraryConsumer
 
 ## M8 | GENERIC DATA STRUCTURES
 
-- [ ] [List`<T>`](../Steffen/CS-GK-VC-F/Demo-List/DList.cs)
-- [ ] [Stack`<T>`](../Steffen/CS-GK-VC-F/Demo-Stack/DStack.cs)
-- [ ] [Queue`<T>`](../Steffen/CS-GK-VC-F/Demo-Queue/DQueue.cs)
-- [ ] [KeyValuePair`<T1, T2>`](../Steffen/CS-GK-VC-F/Demo-KeyValuePair/DKeyValuePair.cs)
-- [ ] [Dictionary`<T1, T2>`](../Steffen/CS-GK-VC-F/Demo-Dictionary/DDictionary.cs)
-- [ ] Hachtable
-- [ ] [Ü Passagierliste](../Steffen/CS-GK-VC-F/MTransport/Flugzeug.cs)
+- [x] [List`<T>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyList.cs)
+- [x] [Stack`<T>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyStack.cs)
+- [x] [Queue`<T>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyQueue.cs)
+- [x] [KeyValuePair`<T1, T2>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyKeyValuePair.cs)
+- [x] [Dictionary`<T1, T2>`](../Steffen/CS-GK-VC-F/M8GenericDataStructures/MyDictionary.cs)
+- [x] Hachtable
+- [x] [Ü Passagierliste](../Steffen/CS-GK-VC-F/M5Transport/FuhrparkApp.cs)
 
 ## M9 | WINDOWS FORMS
 
-- [ ] partial classes
-- [ ] widgets / components
-- [ ] component props
-- [ ] [TicTacToe](../Steffen/CS-GK-VC-F/Demo-WinForm/DWinForm.cs)
+- [x] partial classes
+- [x] widgets / components
+- [x] component props
+- [x] [TicTacToe](../Steffen/CS-GK-VC-F/M9WinFormsTicTacToe/Form1.cs)
 
 ## M10 | DELEGATES & EVENTS
 
@@ -132,6 +128,7 @@ Klasse Stopwatch?
 - [ ] Exception & throw
 - [ ] try catch finally
 - [ ] Exception types
+- [ ] Custom Exeption 
 - [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
 - [ ] [Demo-Exception](../Steffen/CS-GK-VC-F/Demo-Exceptions/Form1.cs)
 

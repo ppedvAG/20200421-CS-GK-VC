@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1C5848E-913B-446D-833B-08A18FB9EADA}</ProjectGuid>
+    <ProjectGuid>{30F5DC03-DAA1-4F30-BDCA-60929B49ECAA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>M5ClassesConsumer</RootNamespace>
-    <AssemblyName>M5ClassesConsumer</AssemblyName>
+    <RootNamespace>M13FileAccessNJson</RootNamespace>
+    <AssemblyName>M13FileAccessNJson</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,16 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="M5ClassesConsumer.cs" />
+    <Compile Include="M13FileAccApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\M5Classes\M5Classes.csproj">
-      <Project>{e184ed16-142f-4a93-8841-49a39bbe2377}</Project>
-      <Name>M5Classes</Name>
+    <ProjectReference Include="..\M5Transport\M5Fuhrpark.csproj">
+      <Project>{0239ecf8-197f-4558-a9fb-977a0da1ddad}</Project>
+      <Name>M5Fuhrpark</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
