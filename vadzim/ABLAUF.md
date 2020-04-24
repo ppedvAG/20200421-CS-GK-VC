@@ -76,39 +76,37 @@ sln props > startup projects > current
 
 ## M6 | INHERITENCE / VERERBUNG
 
-- [ ] base
-- [ ] virtual & override methods
-- [ ] abstract methods
-- [ ] [DLibrary - MyRandom](../vadzim/CS-GK-VC-V/M3Zahlenratespiel/MyRandomT.cs) <!-- *todo -->
-- [ ] [Ü Flugzeug](../vadzim/CS-GK-VC-V/M5Fuhrpark/Flugzeug.cs)
-- [ ] [Ü PKW](../vadzim/CS-GK-VC-V/M5Fuhrpark/PKW.cs)
-- [ ] [Ü Schiff](../vadzim/CS-GK-VC-V/M5Fuhrpark/Schiff.cs)
+- [x] base
+- [x] virtual & override methods
+- [x] abstract methods
+- [x] [MyRandom](../vadzim/CS-GK-VC-V/M3Zahlenratespiel/MyRandomT.cs) <!-- *todo -->
+- [x] [Ü Flugzeug](../vadzim/CS-GK-VC-V/M5Fuhrpark/Flugzeug.cs)
+- [x] [Ü PKW](../vadzim/CS-GK-VC-V/M5Fuhrpark/PKW.cs)
+- [x] [Ü Schiff](../vadzim/CS-GK-VC-V/M5Fuhrpark/Schiff.cs)
 
 ## M7 | INTERFACES & POLYMORPHISM
 
-- [ ] interfaces
-- [ ] override vs overload
-- [ ] [Ü IKannAndereTransportieren](../vadzim/CS-GK-VC-V/MTransport/IKannAndereTransportieren.cs)
-- [ ] [Ü IMitRädern](../vadzim/CS-GK-VC-V/MTransport/IMitRädern.cs)
-
-DLibrary, DLibraryConsumer
+- [x] interfaces
+- [x] override vs overload
+- [x] [Ü IKannAndereTransportieren](../vadzim/CS-GK-VC-V/M5Fuhrpark/IKannAndereTransportieren.cs)
+- [x] [Ü IKannRollen](../vadzim/CS-GK-VC-V/M5Fuhrpark/IKannRollen.cs)
 
 ## M8 | GENERIC DATA STRUCTURES
 
-- [ ] [List`<T>`](../vadzim/CS-GK-VC-V/Demo-List/DList.cs)
-- [ ] [Stack`<T>`](../vadzim/CS-GK-VC-V/Demo-Stack/DStack.cs)
-- [ ] [Queue`<T>`](../vadzim/CS-GK-VC-V/Demo-Queue/DQueue.cs)
-- [ ] [KeyValuePair`<T1, T2>`](../vadzim/CS-GK-VC-V/Demo-KeyValuePair/DKeyValuePair.cs)
-- [ ] [Dictionary`<T1, T2>`](../vadzim/CS-GK-VC-V/Demo-Dictionary/DDictionary.cs)
-- [ ] Hachtable
-- [ ] [Ü Passagierliste](../vadzim/CS-GK-VC-V/MTransport/Flugzeug.cs)
+- [x] [List`<T>`](../vadzim/CS-GK-VC-V/M8GenericDataStructures/MyList.cs)
+- [x] [Stack`<T>`](../vadzim/CS-GK-VC-V/M8GenericDataStructures/MyStack.cs)
+- [x] [Queue`<T>`](../vadzim/CS-GK-VC-V/M8GenericDataStructures/MyQueue.cs)
+- [x] [KeyValuePair`<T1, T2>`](../vadzim/CS-GK-VC-V/M8GenericDataStructures/MyKeyValuePair.cs)
+- [x] [Dictionary`<T1, T2>`](../vadzim/CS-GK-VC-V/M8GenericDataStructures/MyDictionary.cs)
+- [x] Hachtable
+- [x] [Ü Passagierliste](../vadzim/CS-GK-VC-V/M5Fuhrpark/FuhrparkApp.cs)
 
 ## M9 | WINDOWS FORMS
 
-- [ ] partial classes
-- [ ] widgets / components
-- [ ] component props
-- [ ] [TicTacToe](../vadzim/CS-GK-VC-V/Demo-WinForm/DWinForm.cs)
+- [x] partial classes
+- [x] widgets / components
+- [x] component props
+- [x] [TicTacToe](../vadzim/CS-GK-VC-V/M9WinFormsTicTacToe/Program.cs)
 
 ## M10 | DELEGATES & EVENTS
 
@@ -132,6 +130,7 @@ Klasse Stopwatch?
 - [ ] Exception & throw
 - [ ] try catch finally
 - [ ] Exception types
+- [ ] Custom Exceptions, s. MyList
 - [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
 - [ ] [Demo-Exception](../vadzim/CS-GK-VC-V/Demo-Exceptions/Form1.cs)
 

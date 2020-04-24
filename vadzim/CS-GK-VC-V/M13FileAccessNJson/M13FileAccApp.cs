@@ -32,6 +32,8 @@ namespace M13FileAccessNJson
 
             Schreibe<Transport>(objekt);
 
+            Object o = new object();
+
             Console.ReadKey();
 
         }

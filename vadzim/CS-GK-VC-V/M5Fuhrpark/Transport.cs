@@ -18,6 +18,7 @@ namespace M5Fuhrpark
         public double Preis { get; set; }
         public int AktuelleGeschwindigkeit { get; private set; }
         public Zustand FZustand { get; private set; }
+        public List<Passagier> Passagierliste { get; set; }
 
         // ctor
         public Transport(string name, double preis, int maximalGeschwindigkeit)
