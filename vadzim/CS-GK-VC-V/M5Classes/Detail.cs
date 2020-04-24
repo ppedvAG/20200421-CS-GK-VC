@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo_Library
+namespace M5Classes
 {
     public class Detail
     {
@@ -16,12 +16,17 @@ namespace Demo_Library
         // in cm
         public double Höhe { get; set; }
         public double Breite { get; set; }
-
-        // ctor
+        public Einheit DefaultEinheit { get; }
+        
+        // ctors
+        public Detail()
+        {
+        }
         public Detail(double h, double b)
         {
             Höhe = h;
             Breite = b;
+            DefaultEinheit = Einheit.cm;
         }
 
         // methods

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9A9D762-039F-415D-859D-7C1AECAE8029}</ProjectGuid>
+    <ProjectGuid>{67A06BB0-F14E-4814-8BB7-785FD1764811}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>M3Zahlenratespiel</RootNamespace>
-    <AssemblyName>M3Zahlenratespiel</AssemblyName>
+    <RootNamespace>M13FileAccessNJson</RootNamespace>
+    <AssemblyName>M13FileAccessNJson</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="M3Zahlenraten.cs" />
-    <Compile Include="MyRandomT.cs" />
+    <Compile Include="M13FileAccApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\M3ArrayNControls\M3ArrayNControls.csproj">
-      <Project>{64ef572a-90ec-4192-93cd-b4a079798cd3}</Project>
-      <Name>M3ArrayNControls</Name>
+    <ProjectReference Include="..\M5Fuhrpark\M5Fuhrpark.csproj">
+      <Project>{6c18d757-674b-42db-a91f-ec50f3a3a2ef}</Project>
+      <Name>M5Fuhrpark</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

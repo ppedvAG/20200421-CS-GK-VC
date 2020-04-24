@@ -31,6 +31,7 @@
 
 Konvention bei Klassennamen - PascalCase<br>
 Wenn kein Modifizierer, dann ist es private
+Mit Anlegen von Klassen legen wir neue Datentypen an 
 
 ```csharp
 _modifier_ class _Identifier_
@@ -53,6 +54,8 @@ public class Person
 `class` `tab`
 
 **MEMBERS**
+
+Konvention für die Reihenfolge:
 
 ```csharp
 public class Person
@@ -110,6 +113,7 @@ int allowedAmount = 5;
 ## CLASS PROPS
 
 Konvention - PascalCase
+get & set ohne Modifizierer sind public.
 
 **SEMANTIC SYNTAX**
 
@@ -322,6 +326,8 @@ Konvention bei Schnittstellen - IPascalCase
 
 ```csharp
 ```
+
+
 
 <br><br>
 
