@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo_Library
+namespace M5Classes
 {
     public class Detail
+    
     {
         public enum Einheit
         {
@@ -18,11 +19,14 @@ namespace Demo_Library
         public double Höhe { get; set; }
         public double Breite { get; set; }
 
+        public Einheit DefaultEinheit { get; }
+
         // ctor
         public Detail(double h, double b) //ctor tab tab
         {
             Höhe = h;
             Breite = b;
+            DefaultEinheit = Einheit.cm;
         }
 
         // methods

@@ -58,57 +58,54 @@ sln props > startup projects > current
 
 ## M5 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
-- [ ] [public class](../severin/CS-GK-VC-S/M5Classes/Detail.cs)
-- [ ] [private class](../severin/CS-GK-VC-S/M5Classes/Umrechnung.cs)
-- [ ] [Classes Consumer](../severin/CS-GK-VC-S/M5ClassesConsumer/M5ClassesConsumer.cs)
-- [ ] [Ü MTransport](../severin/CS-GK-VC-S/MTransport/Transport.cs)
-- [ ] [Ü MTransportConsumer](../severin/CS-GK-VC-S/MTransport/TConsumer.cs)
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
+- [x] [public class](../severin/CS-GK-VC-S/M5Classes/Detail.cs)
+- [x] [private class](../severin/CS-GK-VC-S/M5Classes/Umrechnung.cs)
+- [x] [Classes Consumer](../severin/CS-GK-VC-S/M5ClassesConsumer/M5ClassesConsumer.cs)
+- [x] [Ü MTransport](../severin/CS-GK-VC-S/M5Transport/Transport.cs)
+- [x] [Ü MTransportConsumer](../severin/CS-GK-VC-S/M5Transport/FuhrparkApp.cs)
 
 ## M6 | INHERITENCE / VERERBUNG
 
-- [ ] base
-- [ ] virtual & override methods
-- [ ] abstract methods
-- [ ] [DLibrary - MyRandom](../severin/CS-GK-VC-S/Demo-Library/MyRandom.cs)
-- [ ] [DLibraryConsumer - Region Call MyRandom](../severin/CS-GK-VC-S/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [DLibrary - MyClassInhCtor](../severin/CS-GK-VC-S/Demo-Library/MyClassInhCtor.cs)
-- [ ] [DLibraryConsumer - Region Call MyClassInhCtor](../severin/CS-GK-VC-S/Demo-Library-Consumer/DLibConsumer.cs)
-- [ ] [Ü Flugzeug](../severin/CS-GK-VC-S/MTransport/Flugzeug.cs)
-- [ ] [Ü PKW](../severin/CS-GK-VC-S/MTransport/PKW.cs)
-- [ ] [Ü Schiff](../severin/CS-GK-VC-S/MTransport/Schiff.cs)
+- [x] base
+- [x] virtual & override methods
+- [x] abstract methods
+- [x] [DLibrary - MyRandom](../severin/CS-GK-VC-S/M3Zahlenratespiel/MyRandom.cs)
+- [x] [Ü Flugzeug](../severin/CS-GK-VC-S/M5Transport/Flugzeug.cs)
+- [x] [Ü PKW](../severin/CS-GK-VC-S/M5Transport/PKW.cs)
+- [x] [Ü Schiff](../severin/CS-GK-VC-S/M5Transport/Schiff.cs)
 
 ## M7 | INTERFACES & POLYMORPHISM
 
-- [ ] interfaces
-- [ ] override vs overload
-- [ ] [Ü IKannAndereTransportieren](../severin/CS-GK-VC-S/MTransport/IKannAndereTransportieren.cs)
-- [ ] [Ü IMitRädern](../severin/CS-GK-VC-S/MTransport/IMitRädern.cs)
+- [x] interfaces
+- [x] override vs overload
+- [x] [Ü IKannAndereTransportieren](../severin/CS-GK-VC-S/M5Transport/IMitTransport.cs)
+- [x] [Ü IMitRädern](../severin/CS-GK-VC-S/M5Transport/IKannRollen.cs)
 
 DLibrary, DLibraryConsumer
 
 ## M8 | GENERIC DATA STRUCTURES
 
-- [ ] [List`<T>`](../severin/CS-GK-VC-S/Demo-List/DList.cs)
-- [ ] [Stack`<T>`](../severin/CS-GK-VC-S/Demo-Stack/DStack.cs)
-- [ ] [Queue`<T>`](../severin/CS-GK-VC-S/Demo-Queue/DQueue.cs)
-- [ ] [KeyValuePair`<T1, T2>`](../severin/CS-GK-VC-S/Demo-KeyValuePair/DKeyValuePair.cs)
-- [ ] [Dictionary`<T1, T2>`](../severin/CS-GK-VC-S/Demo-Dictionary/DDictionary.cs)
+- [x] [List`<T>`](../severin/CS-GK-VC-S/M8GenericDataStructures/MyList.cs)
+- [ ] [Stack`<T>`](../severin/CS-GK-VC-S/M8GenericDataStructures/MyStack.cs)
+- [ ] [Queue`<T>`](../severin/CS-GK-VC-S/M8GenericDataStructures/MyQueue.cs)
+- [ ] [KeyValuePair`<T1, T2>`](../severin/CS-GK-VC-S/M8GenericDataStructures/MyKeyValuePair.cs)
+- [ ] [Dictionary`<T1, T2>`](../severin/CS-GK-VC-S/M8GenericDataStructures/MyDDictionary.cs)
 - [ ] Hachtable
-- [ ] [Ü Passagierliste](../severin/CS-GK-VC-S/MTransport/Flugzeug.cs)
+- [ ] [Ü Passagierliste](../severin/CS-GK-VC-S/M5Transport/FuhrparkApp.cs)
 
 ## M9 | WINDOWS FORMS
 
-- [ ] partial classes
-- [ ] widgets / components
-- [ ] component props
-- [ ] [TicTacToe](../severin/CS-GK-VC-S/Demo-WinForm/DWinForm.cs)
+- [x] partial classes
+- [x] widgets / components
+- [x] component props
+- [x] [TicTacToe](../severin/CS-GK-VC-S/M9WinFormsTicTacToe/Program.cs)
 
 ## M10 | DELEGATES & EVENTS
 
@@ -132,6 +129,7 @@ Klasse Stopwatch?
 - [ ] Exception & throw
 - [ ] try catch finally
 - [ ] Exception types
+- [ ] Custom Exceptions, s. MyList
 - [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
 - [ ] [Demo-Exception](../severin/CS-GK-VC-S/Demo-Exceptions/Form1.cs)
 

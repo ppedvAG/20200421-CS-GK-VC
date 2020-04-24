@@ -52,5 +52,11 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\M2DataTypesLib\M2DataTypesLib.csproj">
+      <Project>{fdce128f-a559-40ff-9609-0e7bfe43073f}</Project>
+      <Name>M2DataTypesLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,10 +12,15 @@ namespace M3Zahlenratespiel
 		{
 			Random random = new Random();
 
-			int zufall = random.Next(5);
+			int zufall = random.Next(1);
+			Console.WriteLine($"\n ## Test ##");
+			MyRandom myRandow = new MyRandom();
+
+			int zufall1 = myRandow.Next(1);
 			int eingabe;
 
 			Console.WriteLine($"Zufallszahl: {zufall}");
+			Console.WriteLine($"Zufallszahl2: {zufall1}");
 
 			do
 			{
