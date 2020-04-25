@@ -41,12 +41,9 @@ namespace M8GenericDataStructures
         // *todo Kommentar geht nicht ins IntelliSense rüber
         internal static int LöscheEinElementAmIndex(List<DateTime> liste, int index)
         {
-            // Remove(element)
-            // RemoveAt(index)
             if (index > liste.Count-1 || index < 0)
             {
-                
-                throw new IndexOutOfRangeException("außerhalb von möglichen Bereich");
+                throw new IndexOutOfRangeException("außerhalb vom möglichen Bereich");
             }
             else
             {

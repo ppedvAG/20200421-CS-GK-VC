@@ -5,8 +5,7 @@
 [constructors](#constructors) |
 [class methods](#class-methods)
 
-[variable declaration](#variable-declaration) |
-[variable initialisation](#variable-initialisation)
+[variables](#variables)
 
 [conditions](#conditions) | 
 [conditionals](#conditionals)
@@ -76,40 +75,6 @@ public class Person
 
 <br><br>
 
-## VARIABLE DECLARATION
-
-Konvention - camelCase
-
-**SEMANTIC SYNTAX**
-
-```csharp
-_type_ _identifier_;
-```
-
-**EXAMPLE**
-
-```csharp
-int allowedAmount;
-```
-
-<br><br>
-
-## VARIABLE INITIALISATION
-
-**SEMANTIC SYNTAX**
-
-```csharp
-_type_ _identifier_ = _value_;
-```
-
-**EXAMPLE**
-
-```csharp
-int allowedAmount = 5;
-```
-
-<br><br>
-
 ## CLASS PROPS
 
 Konvention - PascalCase
@@ -127,6 +92,10 @@ public _type_ _Identifier_ { get; set; }
 public string FirstName { get; set; }
 ```
 
+**SNIPPET**
+
+ `prop` `tab`
+
 <br><br>
 
 ## CONSTRUCTORS
@@ -140,8 +109,8 @@ Konventionen wie bei anderen Methoden.
 ```csharp
 public _ClassName_(_type_ _param1_, _type_ _param2_)
 {
-    this._PropName1_ = _param1_;
-    this._PropName2_ = _param2_;
+    _PropName1_ = _param1_;
+    _PropName2_ = _param2_;
 }
 ```
 
@@ -150,8 +119,8 @@ public _ClassName_(_type_ _param1_, _type_ _param2_)
 ```csharp
 public Person(string fn, string ln) 
 {
-    this.FirstName = fn;
-    this.LastName = ln;
+    FirstName = fn;
+    LastName = ln;
 }
 ```
 
@@ -183,6 +152,54 @@ static void Main(string text)
     // Ausdrücke | Expressions
     // Anweisungen | Statements 
 }
+```
+
+<br><br>
+
+## VARIABLES
+
+Konvention - camelCase.
+
+Beim Deklarieren (ohne Initialisieren) bekommen die Variablen in C# ihre Default-Werte.
+
+**SEMANTIC SYNTAX**
+
+```csharp
+// 1. declaring  variables:
+_type_ _identifier_;
+
+// 2. writing initial value to declared variables:
+_identifier_ = _initialValue_;
+
+// 3. initializing variables (declaring & writing initial value):
+_type_ _identifier_ = _initialValue_;
+
+// 4. reading the value from declared/initialized variables:
+_SomeMethod_(_identifier_);
+_identifierOfAnotherVariable_ = _identifier_;
+
+// 5. writing a new value is the same as 2. writing initial value:
+_identifier_ = _newValue_;
+```
+
+**EXAMPLE**
+
+```csharp
+// 1. declaring  variables:
+int geburtsjahr;
+
+// 2. writing initial value to declared variables:
+geburtsjahr = 1970;
+
+// 3. initializing variables (declaring & writing initial value):
+string wohnort = "Leipzig";
+
+// 4. reading the value from declared/initialized variables:
+Console.Write("Ich wohne in " + wohnort + ".");
+int alter = 2020 - geburtsjahr;
+
+// 5. writing a new value is the same as 2. writing initial value:
+wohnort = "Berlin";
 ```
 
 <br><br>
@@ -259,15 +276,87 @@ true ? "true" : "false";
 
 ## LOOPS
 
+### FOR-LOOP
+
 **SEMANTIC SYNTAX**
 
 ```csharp
+for (_iteratorVariable_; _conditionWithIteratorVariable_; _iteratorVariableChanges_)
+{
+    // do smth, using the iteratorVariable
+}
 ```
 
 **EXAMPLE**
 
 ```csharp
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
 ```
+
+**SNIPPET**
+
+`for` `tab`
+
+<br>
+
+### WHILE-LOOP
+
+**SEMANTIC SYNTAX**
+
+```csharp
+while (_condition_)
+{
+    // do smth, using things, mentioned in condition
+}
+```
+
+**EXAMPLE**
+
+```csharp
+int i = 0;
+while (i < 10)
+{
+    Console.WriteLine(i);
+    i++;
+}
+```
+
+**SNIPPET**
+
+`while` `tab`
+
+<br>
+
+### DO-WHILE-LOOP
+
+**SEMANTIC SYNTAX**
+
+```csharp
+do 
+{
+    // do smth, using things, mentioned in condition
+} 
+while (_condition_)
+```
+
+**EXAMPLE**
+
+```csharp
+int i = 0;
+do
+{
+    Console.WriteLine(i);
+    i++;
+}
+while (i < 10)
+```
+
+**SNIPPET**
+
+`do` `tab`
 
 <br><br>
 
@@ -276,25 +365,42 @@ true ? "true" : "false";
 **SEMANTIC SYNTAX**
 
 ```csharp
+foreach (_type_ _variable_ in _collection_)
+{
+    // read value of variable
+}
+
 ```
 
 **EXAMPLE**
 
 ```csharp
+foreach (string city in cities)
+{
+    Console.WriteLine($"Stadt: {city}");
+}
 ```
+
+**SNIPPET**
+
+`foreach` `tab`
 
 <br><br>
 
 ## INSTANTIATION
 
+Instanz / Objekt / Variable von einer Klasse erstellen
+
 **SEMANTIC SYNTAX**
 
 ```csharp
+_VariableType_ _variable_ = new _ConstructorOfRuntimeType_();
 ```
 
 **EXAMPLE**
 
 ```csharp
+MyClass myClass = new MyClass();
 ```
 
 <br><br>
@@ -309,6 +415,30 @@ true ? "true" : "false";
 **EXAMPLE**
 
 ```csharp
+// Superklasse / Baseklasse / Vaterklasse:
+public class Transportmittel
+{
+    // props:
+    public string Name { get; set; }
+    public double Preis { get; set; }
+    // ctor:
+    public Transport(string name, double preis)
+    {
+        Name = name;
+        Preis = preis;
+    }
+}
+// Subklasse / Kindklasse:
+class Flugzeug : Transportmittel
+{   
+    // props:
+    public int MaxFlugHöhe { get; set; }
+    // ctor:
+    public Flugzeug(string name, int preis, int maxFHöhe) : base(name, preis)
+    {
+        MaxFlugHöhe = maxFHöhe;            
+    }
+}
 ```
 
 <br><br>
@@ -325,6 +455,27 @@ Konvention bei Schnittstellen - IPascalCase
 **EXAMPLE**
 
 ```csharp
+// interface deklarieren:
+public interface IKannRollen
+{
+    int AnzahlRäder { get; set; }
+    int Luftdruck { get; set; }
+    int NachpumpenLuftDruck(int luft);
+}
+
+// interface benutzen:
+class Flugzeug : IKannRollen
+{       
+    // ... props speziell von Flugzeug
+    public int AnzahlRäder { get; set; }
+    public int Luftdruck { get; set; }
+    // ... ctor weggelassen
+    public int NachpumpenLuftDruck(int luft)
+    {            
+        Luftdruck += luft;
+        return 4;
+    }
+}
 ```
 
 
@@ -341,6 +492,8 @@ Konvention bei Schnittstellen - IPascalCase
 **EXAMPLE**
 
 ```csharp
+List<DateTime> dateTimes = new List<DateTime>();
+dateTimes.Add(DateTime.Now);
 ```
 
 <br><br>
@@ -355,6 +508,13 @@ Konvention bei Schnittstellen - IPascalCase
 **EXAMPLE**
 
 ```csharp
+int Addiere(int a, int b)
+   {
+       MessageBox.Show($"Addiere: {a + b}");
+       return a + b;
+   }
+Func<int, int, int> myFuncDelegate = Addiere;
+myFuncDelegate(3, 4);
 ```
 
 <br><br>
@@ -369,4 +529,5 @@ Konvention bei Schnittstellen - IPascalCase
 **EXAMPLE**
 
 ```csharp
+gefundeneStadt = städte.Find(s => s.StartsWith("P"));
 ```

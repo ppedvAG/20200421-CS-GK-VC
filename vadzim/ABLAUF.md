@@ -1,18 +1,12 @@
 # ABLAUF VOM KURS, VADZIM
 
-[csharp-cheatsheet](CSHARP-CHEATSHEET.md)
-
-[git-commands](GIT-COMMANDS.md)
-
-[vs-shortcuts](VS-SHORTCUTS.md)
-
-[csharp-snippets](CSHARP-SNIPPETS.md)
-
 ## M0 | WARMING UP
 
 - [x] Greeter
 - [x] VS [homepage](https://visualstudio.microsoft.com/de/)
+- [x] [vs-shortcuts](VS-SHORTCUTS.md)
 - [x] Git
+- [x] [git-commands](GIT-COMMANDS.md)
 
 VS Installer > installierte Version ändern > Sprachpakete
 
@@ -24,6 +18,7 @@ Tools > Options > Text Editor > All Languages > General > Line numbers
 - [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/HelloWorld.cs)
 - [x] [DConsole](../vadzim/CS-GK-VC-V/M1Demo-Console/DConsole.cs)
+- [x] [SPICKER](CSHARP-CHEATSHEET.md)
 
 sln props > startup projects > current
 
@@ -110,12 +105,11 @@ sln props > startup projects > current
 
 ## M10 | DELEGATES & EVENTS
 
-- [ ] custom delegates
-- [ ] built-in delegates
-- [ ] anonumous functions
-- [ ] event handler
-
-Ddelegate
+- [x] custom delegates
+- [x] built-in delegates
+- [x] anonumous functions
+- [x] event handler
+- [x] [M10 Delegates](../vadzim/CS-GK-VC-V/M10Delegates/Program.cs)
 
 Ü Kollidierende Buttons
 
@@ -127,12 +121,12 @@ Klasse Stopwatch?
 
 ## M11 | Exception-Handling​
 
-- [ ] Exception & throw
-- [ ] try catch finally
-- [ ] Exception types
-- [ ] Custom Exceptions, s. MyList
-- [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
-- [ ] [Demo-Exception](../vadzim/CS-GK-VC-V/Demo-Exceptions/Form1.cs)
+- [x] Exception & throw
+- [x] try catch finally
+- [x] Exception types
+- [ ] Custom Exceptions
+- [x] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
+- [x] [Demo-Exception](../vadzim/CS-GK-VC-V/M8GenericDataStructures/MyList.cs)
 
 ## M12 | Unit-Tests
 
@@ -143,9 +137,9 @@ Klasse Stopwatch?
 
 ## M13 | File Access Dateizugriff​
 
-- [ ] SaveFileDialog & OpenFileDialog
-- [ ] StreamReader & StreamWriter
-- [ ] JSON, serialize & deserialize 
-- [ ] [Ü TransportListe (M10Ü)](../vadzim/CS-GK-VC-V/M13Serialisierung/Form1.cs)
+- [x] SaveFileDialog & OpenFileDialog
+- [x] StreamReader & StreamWriter
+- [x] JSON, serialize & deserialize 
+- [x] [M13 File Access & JSON](../vadzim/CS-GK-VC-V/M13FileAccessNJson/M13FileAccApp.cs)
 
 Ü Anmeldeformular? / Gästeliste?

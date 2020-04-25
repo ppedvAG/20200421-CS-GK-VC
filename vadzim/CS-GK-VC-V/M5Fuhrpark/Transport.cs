@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace M5Fuhrpark
 {
-    public class Transport : Object
+    public class Transport
     {
         // types
         public enum Zustand { aus, an }
