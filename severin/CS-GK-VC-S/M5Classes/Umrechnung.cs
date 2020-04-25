@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo_Library
+namespace M5Classes
 {
     static class Umrechnung
     {
-        public static double CmToM(double cm)
+        internal static double CmToM(double cm)
         {
             return cm * 0.01;
         }

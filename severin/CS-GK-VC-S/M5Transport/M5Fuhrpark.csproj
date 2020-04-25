@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ACBBEB6B-630A-441A-AC8D-FE9CB71F6EE8}</ProjectGuid>
+    <ProjectGuid>{05F46E1F-2217-44AC-BCD2-E10DE103C063}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>M5ClassesConsumer</RootNamespace>
-    <AssemblyName>M5ClassesConsumer</AssemblyName>
+    <RootNamespace>M5Transport</RootNamespace>
+    <AssemblyName>M5Transport</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="M5ClassesConsumer.cs" />
+    <Compile Include="Flugzeug.cs" />
+    <Compile Include="FuhrparkApp.cs" />
+    <Compile Include="IKannRollen.cs" />
+    <Compile Include="IMitTransport.cs" />
+    <Compile Include="Passagier.cs" />
+    <Compile Include="PKW.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schiff.cs" />
+    <Compile Include="Transport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\M5Classes\M5Classes.csproj">
-      <Project>{9b1ef97a-ea6f-407c-9d85-ae2860a5b500}</Project>
-      <Name>M5Classes</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
