@@ -8,4 +8,6 @@ Ein Kurs von PPEDV
 
 [Arbeitsbereich von Steffen](steffen/ABLAUF.md)
 
-[Arbeitsbereich von Vadzim](vadzim/ABLAUF.md)
+[Arbeitsbereich von Vadzim](vadzim/ABLAUF.md)7
+
+PPEDV Kurs Schulung C# Grundlagen cSharp
